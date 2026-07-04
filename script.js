@@ -175,3 +175,9 @@ pauseInput.addEventListener("change", () => {
 repsInput.addEventListener("change", updateDisplay);
 
 updateDisplay();
+
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("service-worker.js");
+  });
+}
