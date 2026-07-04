@@ -32,3 +32,5 @@ Danach startet der Yogatimer wie eine normale App vom Homescreen, im Vollbild oh
 - `manifest.json` – App-Metadaten für die Installation (Name, Icons, Farben)
 - `service-worker.js` – Offline-Caching für die installierte App
 - `icons/` – App-Icons in verschiedenen Größen
+
+Live unter: https://communicart1970.github.io/yogatimer/
