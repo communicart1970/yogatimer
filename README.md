@@ -1,14 +1,16 @@
-# Fokus-Timer
+# Yoga-Timer
 
-Ein einfacher Pomodoro-artiger Fokus-Timer im Browser mit sanft pulsierender Hintergrund-Animation.
+Ein Intervall-Timer im Browser für Yoga- oder Übungseinheiten, mit sanft pulsierender Hintergrund-Animation.
 
 ## Features
 
-- Umschaltbare Fokus- und Pausenphasen mit eigenem Countdown
-- Einstellbare Dauer für Fokus- (1–90 Min.) und Pausenzeit (1–30 Min.)
+- Wechselt automatisch zwischen Übungs- und Pausenphasen, für eine feste Anzahl Wiederholungen
+- Einstellbare Dauer für Übung (Sekunden), Pause (Sekunden) und Anzahl der Wiederholungen
 - Start/Pause/Reset-Steuerung
-- Tageszähler für abgeschlossene Fokus-Runden (gespeichert in `localStorage`)
-- Ton-Signal beim Phasenwechsel
+- Akustisches Feedback per Web-Audio-API (keine Audiodateien nötig):
+  - Leise Gongtöne als Countdown in den letzten 10 Sekunden jeder Phase
+  - Lauterer Gong beim Start und Ende jeder Übung
+- Timer stoppt automatisch nach der letzten Wiederholung ("Fertig")
 
 ## Verwendung
 
