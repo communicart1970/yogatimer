@@ -43,11 +43,11 @@ body.running .orb {
   animation: drift 14s ease-in-out infinite, pulse 2.4s ease-in-out infinite;
 }
 
-body.break-phase {
+body.pause-phase {
   --hue: 150;
 }
 
-body.focus-phase {
+body.exercise-phase {
   --hue: 265;
 }
 
